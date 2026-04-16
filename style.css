@@ -1,0 +1,143 @@
+body{
+    background: linear-gradient(135deg, #6a0dad, #1e90ff, #2ecc71);
+    min-height: 100vh;
+}
+.navibar{
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    padding: 9px 10px;
+  
+    top :0;
+    position: fixed;
+    left :0;
+
+      
+
+    
+}
+.navlinks{
+    gap: 20px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+
+    
+}
+.navlinks a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(238, 238, 238);
+    border: px solid rgb(121, 121, 121);
+    width: 105px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        border-radius: 10px;
+    text-shadow: 3px 1px 1px rgb(0, 195, 255);
+    box-shadow: 0px 9px 7px rgba(0, 0, 0, 0.2);
+
+}
+
+.navlinks a:hover{
+    color: rgb(69, 202, 29);
+}
+.navlinks a:active{
+    color: rgb(33, 212, 197);
+}
+.navlinks a:visited{
+    color: rgb(8, 90, 52);
+}
+h1{
+    
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: #0e174e;
+    text-shadow: 3px 1px 1px #0f93eb;
+}
+.content_box_BIG{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(138, 192, 214);
+    margin: 20px  2% 20px ;
+    border-radius: 20px;
+    box-shadow: 2px 9px 7px rgba(0, 0, 0, 0.2);
+   
+   
+}
+.SMALL_BOX{
+    align-items: center;
+    width: 30%;
+    height: 150px;
+    background-color: rgb(175, 243, 232);
+    margin: 20px  2% 20px ;
+    border-radius: 20px;
+    box-shadow: 2px 9px 7px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+
+}
+.input_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.input_box input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.input_box button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #594abb;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input_box button:hover {
+    background-color: #483d8b;
+}
+
+button {
+    background-color: #191255;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.table {
+    align-items: center;
+    border: 6px solid #000000;
+    background-color: rgb(167, 202, 202);
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: auto;
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
